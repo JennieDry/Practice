@@ -1,0 +1,130 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+
+/* Подключение шрифтов */
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap);
+
+/* ------------------------------ */
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 13px; 
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+}
+/* ------------------------------ */
+
+.block {
+   padding: 210px;
+   font-family: Roboto, sans-serif;
+   font-weight: 900;
+}
+
+.promise {
+   margin: 0 0 33px 0;
+}
+
+.logo {
+   max-width: 17px;
+   margin: 0 16px 0 0;
+   vertical-align: middle;
+}
+
+.promise-text {
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 24px;
+   display: inline-block;
+   color: #5D62B5;
+   text-transform: uppercase;
+   align-items: center;
+   letter-spacing: 2.5px;
+}
+
+.title {
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   margin-bottom: 42px;
+}
+
+.description {
+   font-size: 0px;
+   display: inline-block;
+   max-width: 324px;
+   margin-right: 24px;
+}
+
+.block *:last-child {
+   margin-right: 0px;
+}
+
+.icon {
+   max-width: 63px;
+}
+
+.info {
+   max-width: 261px;
+   display: inline-block;
+   padding-left: 23px;
+}
+
+.description-name {
+   font-weight: 900;
+   font-size: 19px;
+   line-height: 26px;
+   color: #F2726F;
+   margin-bottom: 20px;
+}
+
+.description-text {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: #4B4B4B;
+}
+
+
